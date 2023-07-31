@@ -1,29 +1,35 @@
 /* Flexible Box Layout  */
-body{
+/* body{
     text-align: center;
 }
 
 div{
     height: 100px;
-    width: 100px;
+    width: 50px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container{
-    width: 800px;
-    height: 200px;
+    width: 700px;
+    height: 300px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center; 
 }
 
 #box1{
     background-color: aqua;
-
+    flex-grow: 1;
 }
 
 #box2{
     background-color: khaki;
+    height: 200px;
+    flex-grow:1;
 }
 #box3{
     background-color: violet;
@@ -33,4 +39,36 @@ div{
 }
 #box5{
     background-color:pink;
+} */
+
+/* Practice set 6 */
+/* 
+div{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
 }
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+} */
+
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red
+}
+li{
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+
